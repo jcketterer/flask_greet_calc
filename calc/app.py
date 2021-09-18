@@ -51,5 +51,5 @@ def all_math(oper):
     a = int(request.args.get("a"))
     b = int(request.args.get("b"))
     answers = operations[oper](a, b)
-    print(answers)
+
     return str(answers)
